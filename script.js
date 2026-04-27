@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
     for (let i = 1; i <= 27; i++) {
         const randomClass = layoutClasses[Math.floor(Math.random() * layoutClasses.length)];
         galleryImages.push({
-            src: `AnhTapThe/Anh (${i}).jpg`,
+            src: `AnhTapThe/anh (${i}).jpg`,
             class: randomClass
         });
     }
