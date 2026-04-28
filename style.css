@@ -1442,3 +1442,58 @@ h1, h2, h3, .handwritten {
     font-size: 14px;
     color: #666;
   }
+  .footer-form {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-form h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer-form p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.footer-form form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.footer-form input,
+.footer-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.footer-form input:focus,
+.footer-form textarea:focus {
+    border-color: #ff7aa2;
+}
+
+.footer-form button {
+    background: #ff7aa2;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-form button:hover {
+    background: #ff4d85;
+}
